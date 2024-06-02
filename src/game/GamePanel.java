@@ -17,9 +17,9 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener{
     Timer frameDraw;
     RocketShip rocket = new RocketShip(250, 400, 50, 50);
     ObjectManager objMan = new ObjectManager(rocket);
-    Timer pieSpawn;
-   
-	
+    int score;
+
+    
     public GamePanel() {
     	titleFont = new Font("Times New Roman", Font.PLAIN, 48);
     	instructionFont = new Font("Times New Roman", Font.PLAIN, 20);
@@ -54,12 +54,12 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener{
 	   g.fillRect(0, 0, PieEater.WIDTH, PieEater.HEIGHT);
 	   g.setFont(titleFont);
 	   g.setColor(Color.WHITE);
-	   g.drawString("You ate " + " pies!", fntx, fnty);
+	   score = objMan.getScore();
+	   g.drawString("You ate " + score + " pies!", fntx, fnty);
    }
    
    void startGame() {
-	    pieSpawn = new Timer(1000 , objMan);
-	    pieSpawn.start();
+
    }
    
 	@Override
@@ -95,6 +95,9 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener{
 	@Override
 	public void keyPressed(KeyEvent e) {
 		// TODO Auto-generated method stub
+		if(objMan.level ==2 ) {
+			currentState = END;
+		}
 		if (e.getKeyCode()==KeyEvent.VK_ENTER) {
 		    if (currentState == END) {
 		        currentState = MENU;
@@ -125,6 +128,10 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener{
 			    if(!(rocket.x < 0)) {
 			    	rocket.left();
 			    }
+			}
+			if(e.getKeyCode() == KeyEvent.VK_SPACE) {
+				
+				
 			}
 
 	}
