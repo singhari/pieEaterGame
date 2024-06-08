@@ -21,15 +21,19 @@ public class RocketShip extends GameObject{
 	
 	void up() {
 		y-=speed;
+		update();
 	}
 	void down() {
 		y+=speed;
+		update();
 	}
 	void right() {
 		x+=speed;
+		update();
 	}
 	void left() { 
 		x-=speed;
+		update();
 	}
 
 	void loadImage(String imageFile) {
@@ -42,6 +46,10 @@ public class RocketShip extends GameObject{
 	        }
 	        needImage = false;
 	    }
+	}
+	
+	void update() {
+		super.update();
 	}
 	
 	void draw(Graphics g) {

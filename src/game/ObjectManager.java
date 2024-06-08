@@ -32,9 +32,9 @@ public class ObjectManager implements ActionListener{
 //				ali.isActive = false;
 //			}
 		}
-		if(!pieList.get(pieList.size() - 1).isActive) {
-			level = 2;
-		}
+	//	if(!pieList.get(pieList.size() - 1).isActive) {
+		//	level = 2;
+	//	}
 	//	else { 
 		checkCollision();
 		purgeObjects();
@@ -73,7 +73,7 @@ public class ObjectManager implements ActionListener{
 	boolean scoreMaker() {
 		int truer = 0;
 		for(Pie pir : pieList) {
-			if(pir.collisionBox.intersects(rocket.collisionBox)) {
+		  	if(pir.collisionBox.intersects(rocket.collisionBox)) {
 				pir.isActive = false;
 				//score++;
 				System.out.println("smth happened lol");

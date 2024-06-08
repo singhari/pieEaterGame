@@ -43,6 +43,9 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener{
 	   g.setFont(titleFont);
 	   g.setColor(Color.WHITE);
 	   g.drawString("Pie Eater", fntx, fnty);
+	   g.setFont(instructionFont);
+	   g.drawString("Rules: use the up, down, left, and right keys to move.", fntx, fnty+50);
+	   g.drawString("Use the enter key to go to the next screen", fntx, fnty+70);
    }
    void drawGameState(Graphics g) {
 	   g.setColor(Color.GREEN);
@@ -95,7 +98,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener{
 	@Override
 	public void keyPressed(KeyEvent e) {
 		// TODO Auto-generated method stub
-		if(objMan.level ==2 ) {
+		if(objMan.score ==5 ) {
 			currentState = END;
 		}
 		if (e.getKeyCode()==KeyEvent.VK_ENTER) {

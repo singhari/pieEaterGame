@@ -15,6 +15,7 @@ public class PieEater {
 		frame = new JFrame();
 		pan = new GamePanel();
 		frame.addKeyListener(pan);
+		setup();
 	}
 	
 	void setup() {
@@ -28,5 +29,6 @@ public class PieEater {
 	public static void main(String[] args) {
 		PieEater pe = new PieEater();
 		pe.setup();
+		//System.out.println(System.getProperty("java.runtime.version"));
 	}
 }
