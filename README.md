@@ -33,7 +33,7 @@ To run the program, click on the "Run Debug" icon in the left side menu"
 
 <center><img src="https://images.jointheleague.org/module-navigation/rundebug.png" height="100px"></center> 
 
-At the top of the screen you will see the "RUN AND DEBUG" menu. ( But this one will read 'pieEater', not 'DragonFight')
+At the top of the screen you will see the "RUN AND DEBUG" menu. ( But yours will read 'pieEater', not 'DragonFight')
 
 <center><img src="https://images.jointheleague.org/module-navigation/run_menu_closed.png" width="300px"></center> 
 
