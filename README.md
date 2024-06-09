@@ -8,7 +8,7 @@ First, from this repository webpage, click on the green code button.  <img style
 
 Click on the green 'Create Codespace' button. Creating the codespace will take a few minutes, and when it is done, you will get a Visual Studio Code window. Tne next steps will focus on the 'ports' tab in the bottom pane, and the run/debug button, in the left side menu. Both are marked in red in the image below:
 
-<center><img src="https://images.jointheleague.org/module-navigation/vscode_marked.png" width="400px"></center> 
+<center><img src="https://images.jointheleague.org/module-navigation/vscode_marked.png" width="700px"></center> 
 
 ## Open a screen
 
@@ -16,7 +16,7 @@ The VSCode editor you are using is running on a remote server, which does not ha
 
 In the bottom pane of the VSCode window, click on the "PORTS" tab. 
 
-<center><img src="https://images.jointheleague.org/module-navigation/ports_pane.png" width="400px"></center> 
+<center><img src="https://images.jointheleague.org/module-navigation/ports_pane.png" width="700px"></center> 
 
 Hover over the "Forwarded Address" for port 6080. You will see a small icon
 that looks like a globe. This will open a new browser window with a "noVNC" logo. 
@@ -33,15 +33,11 @@ To run the program, click on the "Run Debug" icon in the left side menu"
 
 <center><img src="https://images.jointheleague.org/module-navigation/rundebug.png" height="100px"></center> 
 
-At the top of the screen you will see the "RUN AND DEBUG" menu.
+At the top of the screen you will see the "RUN AND DEBUG" menu. ( But this one will read 'pieEater', not 'DragonFight')
 
 <center><img src="https://images.jointheleague.org/module-navigation/run_menu_closed.png" width="300px"></center> 
 
-Click on the down arrow to open the menu. 
-
-<center><img src="https://images.jointheleague.org/module-navigation/run_menu_open.png" width="300px"></center> 
-
-The select "PieEater", the program that we are viewing the source code for. Then click on the green run arrow. Look in the lower right for an other popup, if there is one, click "Yes". 
+Click the green run arrow. Look in the lower right for an other popup ("do you want to switch to standard mode"), if there is one, click "Yes". 
 
 Look in the virtual window you opened earlier. You should see the game running! 
 
