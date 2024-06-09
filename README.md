@@ -31,20 +31,17 @@ Now you have a virtual screen running. When your program writes to the screen, i
 
 To run the program, click on the "Run Debug" icon in the left side menu" 
 
-<center><img src="https://images.jointheleague.org/module-navigation/rundebug.png" width="300px"></center> 
+<center><img src="https://images.jointheleague.org/module-navigation/rundebug.png" height="100px"></center> 
 
 At the top of the screen you will see the "RUN AND DEBUG" menu.
 
-<center><img src="https://images.jointheleague.org/module-navigation/run_menu_closed.png" width="100px"></center> 
+<center><img src="https://images.jointheleague.org/module-navigation/run_menu_closed.png" width="300px"></center> 
 
 Click on the down arrow to open the menu. 
 
 <center><img src="https://images.jointheleague.org/module-navigation/run_menu_open.png" width="300px"></center> 
 
-The select "RobotDemo", the program that we are viewing the source code for. Then click on the green run arrow. 
+The select "PieEater", the program that we are viewing the source code for. Then click on the green run arrow. Look in the lower right for an other popup, if there is one, click "Yes". 
 
-
-Look in the virtual window you opened earlier. You should see a robot drawing a red square. 
-
-<center><img src="./images/red_square.png" width="600px"></center>
+Look in the virtual window you opened earlier. You should see the game running! 
 
