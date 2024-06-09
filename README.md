@@ -45,3 +45,5 @@ The select "PieEater", the program that we are viewing the source code for. Then
 
 Look in the virtual window you opened earlier. You should see the game running! 
 
+<center><img src="./pieEater.png" width="300px"></center> 
+
