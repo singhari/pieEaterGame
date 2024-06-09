@@ -6,7 +6,7 @@ First, from this repository webpage, click on the green code button.  <img style
 
 <center><img src="https://images.jointheleague.org/module-navigation/create_codespace.png" width="400px"></center> 
 
-Click on the green 'Create Codespace' button. Creating the codespace will take a few minutes, and when it is done, you will get a Visual Studio Code window. THe next steps will focus on the 'ports' tab in the bottom pane, and the run/debug button, in the left side menu. Both are marked in red in the image below:
+Click on the green 'Create Codespace' button. Creating the codespace will take a few minutes, and when it is done, you will get a Visual Studio Code window. Tne next steps will focus on the 'ports' tab in the bottom pane, and the run/debug button, in the left side menu. Both are marked in red in the image below:
 
 <center><img src="https://images.jointheleague.org/module-navigation/vscode_marked.png" width="400px"></center> 
 
