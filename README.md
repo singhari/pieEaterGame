@@ -1,6 +1,6 @@
 # Pie Eater
 
-This fork of Ariana's Pie Eater game adds configuration for running the game online using Github codespaces. 
+This fork of [Ariana's Pie Eater game](https://singhari.github.io/pieEaterGame/) adds configuration for running the game online using Github codespaces. 
 
 First, from this repository webpage, click on the green code button.  <img style="vertical-align:middle" src="https://images.jointheleague.org/module-navigation/code_button.png" height="25px">. In the popup window,
 
